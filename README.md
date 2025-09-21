@@ -9,3 +9,6 @@
 
 # Brain-calc game:
 [![asciicast](https://asciinema.org/a/QVmbps7bnQm7WMrfub5oIfwwo.svg)](https://asciinema.org/a/QVmbps7bnQm7WMrfub5oIfwwo)
+
+# Brain-progression game:
+[![asciicast](https://asciinema.org/a/f8C0YUeC4RoUdZiZoycyGUsw2.svg)](https://asciinema.org/a/f8C0YUeC4RoUdZiZoycyGUsw2)
