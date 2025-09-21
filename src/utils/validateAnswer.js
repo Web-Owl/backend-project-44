@@ -1,4 +1,4 @@
-export const validateAnswerEvenGame = (userAnswer, correctAnswer) => {
+export const validateAnswerStringGame = (userAnswer, correctAnswer) => {
   const answer = userAnswer.toLowerCase().trim()
   const yesPattern = /^(y|yes)$/
   const noPattern = /^(n|no)$/

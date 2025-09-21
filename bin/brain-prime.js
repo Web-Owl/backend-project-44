@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 import { runGame } from '../src/index.js'
-import { generateQuestion } from '../src/games/isEvenGame.js'
+import { generateQuestion } from '../src/games/isPrimeGame.js'
 import { validateAnswerStringGame } from '../src/utils/validateAnswer.js'
 
-const description = 'Answer "yes" if the number is even, otherwise answer "no".'
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 runGame(description, generateQuestion, validateAnswerStringGame)
