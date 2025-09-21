@@ -16,3 +16,11 @@ export const validateAnswerCalcGame = (userAnswer, correctAnswer) => {
   }
   return numberAnswer === correctAnswer
 }
+
+export const validateAnswerGDCGame = (userAnswer, correctAnswer) => {
+  const numberAnswer = Number(userAnswer.trim())
+  if (Number.isNaN(numberAnswer)) {
+    return false
+  }
+  return numberAnswer === correctAnswer
+}
