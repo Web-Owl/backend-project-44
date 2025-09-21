@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-import { greeting } from '../src/cli.js'
-import { playEvenGame } from '../src/games/evenGame.js'
+import { runGame } from '../src/index.js'
+import { generateQuestion } from '../src/games/evenGame.js'
+import { validateAnswerEvenGame } from '../src/utils/validateAnswer.js'
 
-greeting()
-playEvenGame()
+const description = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+runGame(description, generateQuestion, validateAnswerEvenGame)
