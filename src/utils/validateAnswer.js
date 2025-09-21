@@ -9,15 +9,7 @@ export const validateAnswerEvenGame = (userAnswer, correctAnswer) => {
   return answer === correctAnswer
 }
 
-export const validateAnswerCalcGame = (userAnswer, correctAnswer) => {
-  const numberAnswer = Number(userAnswer.trim())
-  if (Number.isNaN(numberAnswer)) {
-    return false
-  }
-  return numberAnswer === correctAnswer
-}
-
-export const validateAnswerGDCGame = (userAnswer, correctAnswer) => {
+export const validateAnswerNumberGame = (userAnswer, correctAnswer) => {
   const numberAnswer = Number(userAnswer.trim())
   if (Number.isNaN(numberAnswer)) {
     return false
